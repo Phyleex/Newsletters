@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fa;
+    color: #2f3640;
+    margin: 0 auto;
+    padding: 0 auto;
+    display:flexbox
+    line-height: 1.6;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh
+
+}
+
+.newsletter {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 30px;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 50px;
+    bottom: 0;
+}
+
+.newsletter h1 {
+    font-size: 100px;
+    color: #2f3640;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.newsletter p {
+    font-size: 80px;
+    color: #6b7280;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    justify-content: center;
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing:border-box
+    text-align: center;
+  }
+  
+  .form-container input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    size-adjust: auto;
+
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 8px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .form-container button:hover {
+    background-color: #1d4ed8;
+    align-items: center;
+    height: 50px;
+    padding: 15px 20px;
+    border: 2px solid #1d4ed8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-container small {
+    display: block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #6b7280;
+  }
+  
